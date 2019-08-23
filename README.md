@@ -12,6 +12,13 @@ Instructions to setup and run the code
 The code should be readable and organized 
 Dockerfile or Ansible configuration to deploy/run any code
 
+#References
+https://github.com/gorilla/websocket/blob/master/examples
+
+
 # How to run 
 
-
+1. clone this repository and cd into this repository
+2. docker-compose up
+2. There is a file utilityLogger.log, so write to this file and it should show on address 127.0.0.1:8090 in realtime
+3. we can change th port and ip in hello.go
